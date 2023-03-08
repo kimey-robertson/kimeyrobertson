@@ -1,8 +1,33 @@
 /* Page */
 
+* {
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
 #page {
     width: 100%;
     height: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.menu-btn {
+    font-size: 45px;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    border: none;
+    background-color: #f7f7f7;
+    cursor: pointer;
+
+}
+
+.blue-text {
+    color: #0062cc;
+    font-weight: 600;
 }
 
 
@@ -13,6 +38,24 @@ aside {
     width: 105px;
     background-color: #1a409a;
     color: white;
+    transition: width 0.4s ease-out;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+aside:hover {
+    background-color: #0062cc;
+    transition: background-color 0.3s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 200px;
+}
+
+.asideHoverStyles {
+    background-color: #0062cc;
+    transition: background-color 0.3s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 200px;
 }
 
 nav {
@@ -24,49 +67,238 @@ nav {
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
 }
 
-li {
-    padding: 15px 0;
-}
-
-i {
+#nav-bar-list i {
     font-size: 25px;
 }
 
-/* Main */
+#nav-bar-list a {
+    color: white;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 310px;
+    padding: 4.5px 0 7px 40px;
+}
+
+.nav-icons li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 310px;
+    padding: 0 20px;
+    /* padding-bottom: 12px; */
+}
+
+.nav-buttons li {
+    font-size: 15px;
+    transition-duration: 0.25s;
+    border-radius: 6px;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons li:hover {
+    box-shadow: 0 14px 28px rgb(0 0 0 / 20%);
+    background-color: #5e9ff3c6;
+    
+}
+
+.nav-buttons li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav-buttons li a i {
+    margin-right: 10px; 
+}
+
+
+
+/* Wrappers */
 
 .outer-wrapper {
-    width: calc(100% - 105px);
-    margin-left: 105px;
+    width: calc(100% - 90px);
+    margin-left: 90px;
+    height: 100%;
+}
+
+.inner-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 33px;
     height: 100%;
 }
 
 /* Home */
 
 header {
-    height: 100%;
+    display: flex;
+    height: 100vh;
 }
 
 #img-container {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 170px;
 }
 
 img {
-    width: 350;
+    width: 350px;
     height: 350px;
-    left: 310px;
-    top: 170px;
-    position: relative;
     border-radius: 50%;
-    box-shadow: 12px 0 #c8caf1, 24px 0 #d6d8f3, 36px 0 #e6e7f5;
+    box-shadow: 12px 0 #c8cff1, 24px 0 #d6dcf3, 36px 0 #e6eaf5;
 }
 
+#description-container {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+}
+
+.description {
+    margin: 0;
+}
+
+.name {
+    font-size: 30px;
+}
+
+#socials-resume {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#resume-button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #1a409a;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 30px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 20%);
+}
+
+#resume-button:hover {
+    background-color: #0062cc;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.social-container {
+    width: 45px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    border: 1px solid #eee;    
+    box-shadow: 0px 4px 6px rgb(134 151 168 / 10%);
+}
+
+.social-container i {
+    font-size: 22px;
+    color: #1a409a;
+}
+
+.bi-linkedin:hover::before, .bi-github:hover::before {
+    color: #0062cc;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* About */
+
+.about-section {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.about-me-container {
+    background-color: white;
+    border-radius: 50px;
+    padding: 48px;
+    width: 95%;
+    margin: auto;
+}
+
+.about-me {
+    font-size: 1.25rem;
+}
+
+.about-head {
+    padding: 40px 0;
+}
+
+/* Skills */
+
+.skills-head {
+    padding: 40px 0;
+}
+
+.skills-container {
+    background-color: white;
+    border-radius: 50px;
+    padding: 48px;
+    width: 95%;
+    margin: auto;
+}
+
+.skill-container {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 15px;
+    border: rgba(233, 232, 232, 0.761) 1px solid;
+    box-shadow: 0px 6px 7px rgb(134 151 168 / 10%);
+    transition: all 0.3s ease-in;
+
+}
+
+.skill-container:hover {
+    box-shadow: 0 14px 28px rgb(0 0 0 / 20%);
+}
 
 /* MAX WIDTH 990px */
 @media (max-width: 990px) {
@@ -76,5 +308,44 @@ img {
         height: 100%;
         /* /* Do some JS to make the sidebar dissapear  */
     }
+
+    aside {
+        background-color: #0062cc;
+        transition: background-color 0.3s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        width: 200px;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 80px 0;
+    }
+
+    #img-container {
+        width: 100%;
+        top: 80px;
+    }
+
+    #description-container {
+        height: 50%;
+        margin-top: 50px;
+        top: 80px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #description-container p {
+        width: 75%;
+    }
 }
+
+/* MAX WIDTH 767px */
+@media (max-width: 767px) {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}  
 
