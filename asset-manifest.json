@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//kimey-robertson.github.io/kimeyrobertson/static/css/main.35f13d68.css",
+    "main.js": "//kimey-robertson.github.io/kimeyrobertson/static/js/main.5ba7319e.js",
+    "static/js/787.7c6f5b2a.chunk.js": "//kimey-robertson.github.io/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js",
+    "index.html": "//kimey-robertson.github.io/kimeyrobertson/index.html",
+    "main.35f13d68.css.map": "//kimey-robertson.github.io/kimeyrobertson/static/css/main.35f13d68.css.map",
+    "main.5ba7319e.js.map": "//kimey-robertson.github.io/kimeyrobertson/static/js/main.5ba7319e.js.map",
+    "787.7c6f5b2a.chunk.js.map": "//kimey-robertson.github.io/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35f13d68.css",
+    "static/js/main.5ba7319e.js"
+  ]
+}
