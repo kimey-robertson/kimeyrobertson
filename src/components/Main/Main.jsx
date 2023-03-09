@@ -113,8 +113,62 @@ function handleMenuBtnClick() {
                 </div>
                 <div className='skills-container'>
                   <div className='skill-container'>
-
+                    <img src="https://alexcalia.com/assets/skills/html.svg" alt="" />
+                    <p>HTML</p>
                   </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/css.svg" alt="" />
+                    <p>CSS</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/javascript.svg" alt="" />
+                    <p>Javascript</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/react.svg" alt="" />
+                    <p>React.js</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/git.svg" alt="" />
+                    <p>Git</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/vscode.svg" alt="" />
+                    <p>VS Code</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="" alt="" />
+                    <p></p>
+                  </div>
+
                 </div>
               </section>
             </main>

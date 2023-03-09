@@ -101,7 +101,6 @@ ul {
     flex-direction: column;
     height: 310px;
     padding: 0 20px;
-    /* padding-bottom: 12px; */
 }
 
 .nav-buttons li {
@@ -164,7 +163,7 @@ header {
     top: 170px;
 }
 
-img {
+#img-container img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -250,10 +249,10 @@ section {
 
 /* About */
 
-.about-section {
-    /* display: flex;
-    flex-direction: column; */
-}
+/* .about-section {
+    display: flex;
+    flex-direction: column; 
+} */
 
 .about-me-container {
     background-color: white;
@@ -283,17 +282,39 @@ section {
     padding: 48px;
     width: 95%;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    justify-items: center;
 }
 
 .skill-container {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     background-color: white;
     border-radius: 15px;
     border: rgba(233, 232, 232, 0.761) 1px solid;
     box-shadow: 0px 6px 7px rgb(134 151 168 / 10%);
     transition: all 0.3s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}
 
+.skill-container i {
+    font-size: 45px;
+}
+
+.skill-container p {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+}
+.skill-container img {
+    width: 35px;
+    height: 35px;
 }
 
 .skill-container:hover {
@@ -343,7 +364,7 @@ section {
 
 /* MAX WIDTH 767px */
 @media (max-width: 767px) {
-    img {
+    #img-container img {
         width: 250px;
         height: 250px;
     }
