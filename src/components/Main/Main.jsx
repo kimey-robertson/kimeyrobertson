@@ -59,11 +59,11 @@ function handleMenuBtnClick() {
             )}
               {navButtonsShown && (      
               <div className='nav-buttons'>
-                <li><a href=""><i className="bi bi-house"></i><p>HOME</p></a></li>
-                <li><a href=""><i className="bi bi-person"></i><p>ABOUT</p></a></li>
-                <li><a href=""><i className="bi bi-code-slash"></i><p>SKILLS</p></a></li>
-                <li><a href=""><i className="bi bi-briefcase"></i><p>PROJECTS</p></a></li>
-                <li><a href=""><i className="bi bi-telephone"></i><p>CONTACT</p></a></li>
+                <a href="#home"><li><i className="bi bi-house"></i><p>HOME</p></li></a>
+                <a href="#about"><li><i className="bi bi-person"></i><p>ABOUT</p></li></a>
+                <a href="#skills"><li><i className="bi bi-code-slash"></i><p>SKILLS</p></li></a>
+                <a href="#projects"><li><i className="bi bi-briefcase"></i><p>PROJECTS</p></li></a>
+                <a href="#contact"><li><i className="bi bi-telephone"></i><p>CONTACT</p></li></a>
               </div>
               )}
             </ul>
@@ -72,7 +72,7 @@ function handleMenuBtnClick() {
       )}
         <div className='outer-wrapper'>
           <div className='inner-wrapper'>
-            <header>
+            <header id='home'>
               <div id='img-container'>
                 <img src="https://i.ibb.co/hWpV4Th/me.jpg" alt="Image of Kimey Robertson" />
               </div>
@@ -88,7 +88,7 @@ function handleMenuBtnClick() {
               </div>
             </header>
             <main>
-              <section className='about-section'>
+              <section className='about-section' id='about'>
                 <div className='about-head'>
                   <span>______ SOME INFO</span>
                   <h2>ABOUT ME</h2>
@@ -106,7 +106,7 @@ function handleMenuBtnClick() {
                   </article>
                 </div>
               </section>
-              <section className='skills-section'>
+              <section className='skills-section' id='skills'>
                 <div className='skills-head'>
                   <span>______ CHECK OUT MY</span>
                   <h2>SKILLS</h2>
@@ -172,7 +172,7 @@ function handleMenuBtnClick() {
 
                 </div>
               </section>
-              <section className='projects-section'>
+              <section className='projects-section' id='projects'>
                 <div className='projects-head'>
                   <span>_______ TAKE A LOOK AT MY</span>
                   <h2>PROJECTS</h2>
@@ -272,6 +272,15 @@ function handleMenuBtnClick() {
                   </div>
                 </div>
 
+              </section>
+              <section className='contact-section' id='contact'>
+                <div className='contact-head'>
+                  <span>_______ SAY HELLO</span>
+                  <h2>CONTACT</h2>
+                </div>
+                <div className='contact-container'>
+
+                </div>
               </section>
             </main>
           </div>
