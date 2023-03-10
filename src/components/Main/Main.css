@@ -16,13 +16,15 @@
 }
 
 .menu-btn {
+    background-color: #f7f7f700;
+    color: black;
+    border: none;
+    cursor: pointer;
     font-size: 45px;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 15px;
-    border: none;
-    background-color: #f7f7f7;
-    cursor: pointer;
+    z-index: 1;
 
 }
 
