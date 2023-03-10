@@ -682,6 +682,11 @@ section {
         width: 100%;
     }
 
+    .menu-btn {
+        right: 5px;
+        top: 10px;
+    }
+
 }
 
 /* MAX WIDTH 440px */
