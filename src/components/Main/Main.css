@@ -61,12 +61,14 @@ aside:hover {
     width: 200px;
 }
 
-.asideHoverStyles {
-    background-color: #0062cc;
-    transition: background-color 0.3s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    width: 200px;
+.navbar {
+    /* transition: transform 0.3s ease-in-out; */
+    transform: translateX(-100%);
 }
+
+.navbar--visible {
+    transform: translateX(0);
+  }
 
 nav {
     height: 100%;
@@ -144,6 +146,23 @@ aside ul {
 
 .nav-buttons li a i {
     margin-right: 10px; 
+}
+
+.scroll-down-container {
+    display: flex;
+    position: fixed;
+    left: 38px;
+    bottom: 1%;
+    width: 124px;
+}
+
+.arrow i {
+    font-size: 30px !important; 
+}
+
+.scroll-down-container p {
+    font-size: 10px;
+    margin-top: 16px;
 }
 
 
@@ -547,6 +566,10 @@ section {
         width: 200px;
     }
 
+    .navbar {
+        transition: transform 0.3s ease-in-out;
+    }
+
     header {
         flex-direction: column;
         height: auto;
@@ -679,4 +702,4 @@ section {
     }
     
 }
-
+  

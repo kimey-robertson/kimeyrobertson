@@ -8,26 +8,29 @@ const [menuButtonHidden, setMenuButtonHidden] = useState(true)
 
 // Listen for when the breakpoint 990px is reached and either show or hide the sidebar
 useEffect(() => {
-  const mediaQuery = window.matchMedia('(max-width: 990px)'); 
-  function handleBreakpointChange(event) {
-    if (event.matches) {
+  function handleResize() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 990) {
       // Under 990px
-      setSideBarHidden(true)
-      setMenuButtonHidden(false)
+      setSideBarHidden(true);
+      setMenuButtonHidden(false);
     } else {
       // Over 990px
-      setSideBarHidden(false)
-      setMenuButtonHidden(true)
-      setNavButtonsShown(false)
-      
+      setSideBarHidden(false);
+      setMenuButtonHidden(true);
+      setNavButtonsShown(false);
     }
   }
-  mediaQuery.addEventListener('change', handleBreakpointChange);
+
+  handleResize(); // call the function initially to set the initial state
+
+  window.addEventListener('resize', handleResize);
 
   return () => {
-    mediaQuery.removeEventListener('change', handleBreakpointChange);
+    window.removeEventListener('resize', handleResize);
   };
-}, [])
+}, []);
+
 
 function handleMenuBtnClick() {
   if (sideBarHidden) {
@@ -42,8 +45,8 @@ function handleMenuBtnClick() {
   return (
     <div id='page'>
       {!menuButtonHidden && <button onClick={handleMenuBtnClick} className='menu-btn'><i className="bi bi-list"></i></button>}
-      {!sideBarHidden && (
-      <aside id='aside'>   
+      {/* {!sideBarHidden && ( */}
+      <aside id='aside' className={`navbar ${!sideBarHidden ? 'navbar--visible' : ''}`}>   
           <nav
           onMouseEnter={() => setNavButtonsShown(true)}
           onMouseLeave={() => setNavButtonsShown(false)}>
@@ -57,6 +60,10 @@ function handleMenuBtnClick() {
                 <li><a href=""><i className="bi bi-telephone"></i></a></li>
               </div>
             )}
+            <div className='scroll-down-container'>
+              <div className='arrow'><i class="bi bi-arrow-down"></i></div>
+              {navButtonsShown && <p>SCROLL DOWN</p> }
+            </div>
               {navButtonsShown && (      
               <div className='nav-buttons'>
                 <a href="#home"><li><i className="bi bi-house"></i><p>HOME</p></li></a>
@@ -69,7 +76,7 @@ function handleMenuBtnClick() {
             </ul>
           </nav>    
       </aside>
-      )}
+      {/* )} */}
         <div className='outer-wrapper'>
           <div className='inner-wrapper'>
             <header id='home'>
