@@ -79,7 +79,7 @@ function handleMenuBtnClick() {
               <div id='description-container'>
                 <p className='description'>HI THERE! I'M</p>
                 <h1 className='name'><span className='blue-text'>KIMEY </span>ROBERTSON</h1>
-                <p className='description'><span className='blue-text'>A Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
+                <p className='description'>A <span className='blue-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                   <div id='socials-resume'>
                     <a href="" id='resume-button' className='btn'>Resumé</a>
                     <a href="" className='social-container'><i className="bi bi-linkedin"></i></a>
@@ -95,7 +95,7 @@ function handleMenuBtnClick() {
                 </div>
                 <div className='about-me-container'>
                   <article className='about-me'>
-                  Hi, I'm Kimey Robertson, an Australian man with a passion for learning and growth. 
+                  Hi, I'm <span className='blue-text'>Kimey</span>. I have a passion for learning and growth. 
                   After working in a variety of roles, including as a chef and health coach, I found 
                   a new calling in the tech industry and started learning to code in January 2022. 
                   With my diverse background, I have developed the ability to deal with stress and work well in a team. 
@@ -111,65 +111,167 @@ function handleMenuBtnClick() {
                   <span>______ CHECK OUT MY</span>
                   <h2>SKILLS</h2>
                 </div>
-                <div className='skills-container'>
+                <div className='skills-grid'>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/html.svg" alt="" />
+                    <img src="https://alexcalia.com/assets/skills/html.svg" alt="Image of HTML" />
                     <p>HTML</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/css.svg" alt="" />
+                    <img src="https://alexcalia.com/assets/skills/css.svg" alt="Image of CSS" />
                     <p>CSS</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/javascript.svg" alt="" />
+                    <img src="https://alexcalia.com/assets/skills/javascript.svg" alt="Image of Javascript" />
                     <p>Javascript</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/react.svg" alt="" />
-                    <p>React.js</p>
+                    <img src="https://alexcalia.com/assets/skills/react.svg" alt="Image of React" />
+                    <p>React</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/git.svg" alt="" />
-                    <p>Git</p>
+                    <img src="https://i.ibb.co/rmj4fZJ/redux.png" alt="Image of Redux" />
+                    <p>Redux</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="https://alexcalia.com/assets/skills/vscode.svg" alt="" />
+                    <img src="https://i.ibb.co/m6ZZbvW/bootstrap.jpg" alt="Image of Bootstrap" />
+                    <p>Bootstrap</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://i.ibb.co/LPjTVzT/python.jpg" alt="Image of Python" />
+                    <p>Python</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://alexcalia.com/assets/skills/vscode.svg" alt="Image of VS Code" />
                     <p>VS Code</p>
                   </div>
                   <div className='skill-container'>
-                    <img src="" alt="" />
+                    <img src="https://alexcalia.com/assets/skills/git.svg" alt="Image of Git" />
+                    <p>Git</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://i.ibb.co/T22msDS/Nice-Png-mongodb-png-3839776.png" alt="Image of Node" />
+                    <p>Node</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://i.ibb.co/NjRnpRP/express.png" alt="Image of Express" />
+                    <p>Express</p>
+                  </div>
+                  <div className='skill-container'>
+                    <img src="https://i.ibb.co/ZX65z2M/postgre-SQL.png" alt="Image of PostgreSQL" />
+                    <p>PostgreSQL</p>
+                  </div>
+
+                  <div className='skill-container'>
+                    <img src="" alt="Image of " />
                     <p></p>
                   </div>
                   <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
-                    <p></p>
-                  </div>
-                  <div className='skill-container'>
-                    <img src="" alt="" />
+                    <img src="" alt="Image of " />
                     <p></p>
                   </div>
 
                 </div>
+              </section>
+              <section className='projects-section'>
+                <div className='projects-head'>
+                  <span>_______ TAKE A LOOK AT MY</span>
+                  <h2>PROJECTS</h2>
+                </div>
+                <div className='projects-container'>
+                  <div className='project-box'>
+                    <div className='project-img-container'>
+                    <img src="https://i.ibb.co/h9yj5js/my-Social-Screenshot.png" alt="Screenshot of mySocial project" />
+                    </div>
+                    <div className='project-description-container'>
+                      <h1>mySocial</h1>
+                      <h4>Technologies Used:<span className='blue-text'> HTML, CSS, React, Redux, Bootstrap, Node, Express, PostgreSQL, AWS </span> </h4>
+                      <ul>
+                        <li>Full stack social media clone</li>
+                        <li>Uses localstorage and database checks to allow users to create an account and sign in</li>
+                        <li>Makes use of HTTP requests and react-redux state managent so users can create posts and edit their profile</li>
+                      </ul>
+                      <div className='project-link-container'>
+                        <a href=""><span className='blue-text'>Live</span></a>
+                        <a href=""><span className='blue-text'>Repo</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='project-box'>
+                    <div className='project-img-container'>
+                    <img src="https://i.ibb.co/bQByHVP/Reddit-Client-Screenshot.png" alt="Screenshot of Reddit Client project" />
+                    </div>
+                    <div className='project-description-container'>
+                      <h1>Reddit Client</h1>
+                      <h4>Technologies Used:<span className='blue-text'> HTML, CSS, React, Redux, Reddit API </span> </h4>
+                      <ul>
+                        <li>Utilises the Reddit API and a search function to find reddit posts</li>
+                        <li>Created and rendered with React</li>
+                        <li>State managed using Redux</li>
+                      </ul>
+                      <div className='project-link-container'>
+                        <a href=""><span className='blue-text'>Live</span></a>
+                        <a href=""><span className='blue-text'>Repo</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='project-box'>
+                    <div className='project-img-container'>
+                    <img src="https://i.ibb.co/4gM939p/Chat-App-Screenshot.png" alt="Screenshot of Chat App project" />
+                    </div>
+                    <div className='project-description-container'>
+                      <h1>Chat App</h1>
+                      <h4>Technologies Used:<span className='blue-text'> HTML, CSS, React, Firebase </span> </h4>
+                      <ul>
+                        <li>A real-time chat app that can have multiple people connect and chatting simultaneously</li>
+                        <li>Makes use of firebase's hosting platform and real time database</li>
+                        <li>Created and rendered with React</li>
+                      </ul>
+                      <div className='project-link-container'>
+                        <a href=""><span className='blue-text'>Live</span></a>
+                        <a href=""><span className='blue-text'>Repo</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='project-box'>
+                    <div className='project-img-container'>
+                    <img src="https://i.ibb.co/KNvBDVq/Adventure-Game-Screenshot.png" alt="Screenshot of Adventure Game project" />
+                    </div>
+                    <div className='project-description-container'>
+                      <h1>Text-based Adventure Game</h1>
+                      <h4>Technologies Used:<span className='blue-text'> HTML, CSS, React </span> </h4>
+                      <ul>
+                        <li>Text node adventure game created in react</li>
+                        <li></li>
+                        <li></li>
+
+                      </ul>
+                      <div className='project-link-container'>
+                        <a href=""><span className='blue-text'>Live</span></a>
+                        <a href=""><span className='blue-text'>Repo</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='project-box'>
+                    <div className='project-img-container'>
+                    <img src="https://i.ibb.co/JcFPzQD/Snake-Game-Screenshot.png" alt="Screenshot of Snake Game project" />
+                    </div>
+                    <div className='project-description-container'>
+                      <h1>Snake Game</h1>
+                      <h4>Technologies Used:<span className='blue-text'> HTML, CSS, Javascript </span> </h4>
+                      <ul>
+                        <li>Classic Snake Game with a reto new look</li>
+                        <li>Created in Vanilla JS</li>
+                        <li></li>
+
+                      </ul>
+                      <div className='project-link-container'>
+                        <a href=""><span className='blue-text'>Live</span></a>
+                        <a href=""><span className='blue-text'>Repo</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </section>
             </main>
           </div>
