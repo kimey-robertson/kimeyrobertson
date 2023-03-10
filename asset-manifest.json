@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "//kimey-robertson.github.io/kimeyrobertson/static/css/main.35f13d68.css",
-    "main.js": "//kimey-robertson.github.io/kimeyrobertson/static/js/main.5ba7319e.js",
-    "static/js/787.7c6f5b2a.chunk.js": "//kimey-robertson.github.io/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js",
-    "index.html": "//kimey-robertson.github.io/kimeyrobertson/index.html",
-    "main.35f13d68.css.map": "//kimey-robertson.github.io/kimeyrobertson/static/css/main.35f13d68.css.map",
-    "main.5ba7319e.js.map": "//kimey-robertson.github.io/kimeyrobertson/static/js/main.5ba7319e.js.map",
-    "787.7c6f5b2a.chunk.js.map": "//kimey-robertson.github.io/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js.map"
+    "main.css": "/kimeyrobertson/static/css/main.144cdf7a.css",
+    "main.js": "/kimeyrobertson/static/js/main.f1179c48.js",
+    "static/js/787.7c6f5b2a.chunk.js": "/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js",
+    "static/media/logo.svg": "/kimeyrobertson/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kimeyrobertson/index.html",
+    "main.144cdf7a.css.map": "/kimeyrobertson/static/css/main.144cdf7a.css.map",
+    "main.f1179c48.js.map": "/kimeyrobertson/static/js/main.f1179c48.js.map",
+    "787.7c6f5b2a.chunk.js.map": "/kimeyrobertson/static/js/787.7c6f5b2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35f13d68.css",
-    "static/js/main.5ba7319e.js"
+    "static/css/main.144cdf7a.css",
+    "static/js/main.f1179c48.js"
   ]
 }
