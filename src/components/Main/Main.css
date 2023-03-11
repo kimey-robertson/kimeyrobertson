@@ -683,7 +683,7 @@ section {
     }
 
     .menu-btn {
-        right: -10px;
+        right: 0px;
         top: 10px;
     }
 
@@ -699,6 +699,10 @@ section {
     #img-container img {
         width: 100%;
         height: auto;
+    }
+
+    .menu-btn {
+        right: -25px;
     }
 }
 
