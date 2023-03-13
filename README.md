@@ -11,4 +11,4 @@ This website is a showcase of everything I've done and learnt so far in my codin
 - Contact form for potential clients, employers, and collaborators to reach out
 
 # Getting started
-- My Portfolio Website is hosted live and can be accessed by visiting kimeyrobertson.com. No installation or download is required, and the website can be viewed on any device with a web browser.
+- My Portfolio Website is hosted live and can be accessed by visiting https://www.kimeyrobertson.com/. No installation or download is required, and the website can be viewed on any device with a web browser.
