@@ -87,7 +87,7 @@ function handleMenuBtnClick() {
                 <h1 className='name'><span className='blue-text'>KIMEY </span>ROBERTSON</h1>
                 <p className='description'>A <span className='blue-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                   <div id='socials-resume'>
-                    <a href="https://i.ibb.co/gDypzNh/Kimey-Robertson-Resume.jpg" target="_blank" id='resume-button' className='btn'>Resumé</a>
+                    <a href="https://docdro.id/BLodvae" target="_blank" id='resume-button' className='btn'>Resumé</a>
                     <a href="https://www.linkedin.com/in/kimey-robertson-2b98831b2/" target="_blank" className='social-container'><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/kimey-robertson" target="_blank" className='social-container'><i className="bi bi-github"></i></a>
                   </div>
