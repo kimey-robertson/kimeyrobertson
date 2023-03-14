@@ -87,7 +87,7 @@ function handleMenuBtnClick() {
                 <h1 className='name'><span className='blue-text'>KIMEY </span>ROBERTSON</h1>
                 <p className='description'>A <span className='blue-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                   <div id='socials-resume'>
-                    <a href="" target="_blank" id='resume-button' className='btn'>Resumé</a>
+                    <a href="https://i.ibb.co/gDypzNh/Kimey-Robertson-Resume.jpg" target="_blank" id='resume-button' className='btn'>Resumé</a>
                     <a href="https://www.linkedin.com/in/kimey-robertson-2b98831b2/" target="_blank" className='social-container'><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/kimey-robertson" target="_blank" className='social-container'><i className="bi bi-github"></i></a>
                   </div>
@@ -188,7 +188,7 @@ function handleMenuBtnClick() {
                 <div className='projects-container'>
                   <div className='project-box'>
                     <div className='project-img-container'>
-                    <img src="https://i.ibb.co/h9yj5js/my-Social-Screenshot.png" alt="Screenshot of mySocial project" />
+                    <img src="https://i.ibb.co/h2XTnD3/my-Social-Screenshot.png" alt="Screenshot of mySocial project" />
                     </div>
                     <div className='project-description-container'>
                       <h1>mySocial</h1>
@@ -199,14 +199,14 @@ function handleMenuBtnClick() {
                         <li>Makes use of HTTP requests and react-redux state managent so users can create posts and edit their profile</li>
                       </ul>
                       <div className='project-link-container'>
-                        <a href="" target="_blank"><span className='blue-text'>Live</span></a>
+                        {/* <a href="" target="_blank"><span className='blue-text'>Live</span></a> */}
                         <a href="https://github.com/kimey-robertson/my-social.git" target="_blank"><span className='blue-text'>Repo</span></a>
                       </div>
                     </div>
                   </div>
                   <div className='project-box'>
                     <div className='project-img-container'>
-                    <img src="https://i.ibb.co/bQByHVP/Reddit-Client-Screenshot.png" alt="Screenshot of Reddit Client project" />
+                    <img src="https://i.ibb.co/JvJ9Gs0/Reddit-Client-Screenshot.png" alt="Screenshot of Reddit Client project" />
                     </div>
                     <div className='project-description-container'>
                       <h1>Reddit Client</h1>
@@ -224,7 +224,7 @@ function handleMenuBtnClick() {
                   </div>
                   <div className='project-box'>
                     <div className='project-img-container'>
-                    <img src="https://i.ibb.co/4gM939p/Chat-App-Screenshot.png" alt="Screenshot of Chat App project" />
+                    <img src="https://i.ibb.co/8N9sWR5/Chat-App-Screenshot.png" alt="Screenshot of Chat App project" />
                     </div>
                     <div className='project-description-container'>
                       <h1>Chat App</h1>
@@ -242,7 +242,7 @@ function handleMenuBtnClick() {
                   </div>
                   <div className='project-box'>
                     <div className='project-img-container'>
-                    <img src="https://i.ibb.co/KNvBDVq/Adventure-Game-Screenshot.png" alt="Screenshot of Adventure Game project" />
+                    <img src="https://i.ibb.co/0XDkZVH/Adventure-Game-Screenshot.png" alt="Screenshot of Adventure Game project" />
                     </div>
                     <div className='project-description-container'>
                       <h1>Text-based Adventure Game</h1>
@@ -250,7 +250,7 @@ function handleMenuBtnClick() {
                       <ul>
                         <li>Text node adventure game created in react</li>
                         <li>Hosted with netlify</li>
-                        <li></li>
+                        {/* <li></li> */}
 
                       </ul>
                       <div className='project-link-container'>
@@ -269,7 +269,7 @@ function handleMenuBtnClick() {
                       <ul>
                         <li>Classic Snake Game with a retro new look</li>
                         <li>Created in Vanilla JS</li>
-                        <li></li>
+                        {/* <li></li> */}
 
                       </ul>
                       <div className='project-link-container'>
