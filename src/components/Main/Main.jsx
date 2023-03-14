@@ -76,7 +76,6 @@ function handleMenuBtnClick() {
             </ul>
           </nav>    
       </aside>
-      {/* )} */}
         <div className='outer-wrapper'>
           <div className='inner-wrapper'>
             <header id='home'>
@@ -218,7 +217,7 @@ function handleMenuBtnClick() {
                         <li>State managed using Redux</li>
                       </ul>
                       <div className='project-link-container'>
-                        <a href="" target="_blank"><span className='blue-text'>Live</span></a>
+                        <a href="https://kimey-robertson.github.io/reddit-client/" target="_blank"><span className='blue-text'>Live</span></a>
                         <a href="https://github.com/kimey-robertson/reddit-client.git" target="_blank"><span className='blue-text'>Repo</span></a>
                       </div>
                     </div>
