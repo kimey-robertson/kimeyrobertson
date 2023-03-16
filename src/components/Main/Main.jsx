@@ -61,7 +61,7 @@ function handleMenuBtnClick() {
               </div>
             )}
             <div className='scroll-down-container'>
-              <div className='arrow'><i class="bi bi-arrow-down"></i></div>
+              <div className='arrow'><i className="bi bi-arrow-down"></i></div>
               {navButtonsShown && <p>SCROLL DOWN</p> }
             </div>
               {navButtonsShown && (      
@@ -291,7 +291,7 @@ function handleMenuBtnClick() {
                   <h3>Get in Touch</h3>
                   <div className='email-me-container'>
                     <div className='email-icon-container'>
-                      <i class="bi bi-envelope"></i>
+                      <i className="bi bi-envelope"></i>
                     </div>
                     <a href="mailto:kimey.robertson@gmail.com" target="_blank"><p id='my-email'>kimey.robertson@gmail.com</p></a>
                     <p>Email me</p>
