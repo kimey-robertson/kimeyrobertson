@@ -4,10 +4,10 @@ This website is a showcase of everything I've done and learnt so far in my codin
 
 # Features
 
-- Clean and modern design that showcases your skills and work
+- Clean and modern design that showcases my skills and work
 - Easy navigation to different sections of the website
 - Detailed information about my education, work experience, and projects
-- Links to your GitHub, LinkedIn, and other social media profiles
+- Links to my GitHub, LinkedIn, and other social media profiles
 - Contact form for potential clients, employers, and collaborators to reach out
 
 # Getting started
