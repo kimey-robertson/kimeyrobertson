@@ -85,7 +85,7 @@ function handleMenuBtnClick() {
               <div id='description-container'>
                 <p className='description'>HI THERE! I'M</p>
                 <h1 className='name'><span className='blue-text'>KIMEY </span>ROBERTSON</h1>
-                <p className='description'>A <span className='blue-text'>Front-End Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
+                <p className='description'>A <span className='blue-text'>Full Stack Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                   <div id='socials-resume'>
                     <a href="https://docdro.id/BLodvae" target="_blank" id='resume-button' className='btn'>Resumé</a>
                     <a href="https://www.linkedin.com/in/kimey-robertson-2b98831b2/" target="_blank" className='social-container'><i className="bi bi-linkedin"></i></a>
@@ -199,7 +199,7 @@ function handleMenuBtnClick() {
                         <li>Makes use of HTTP requests and react-redux state managent so users can create posts and edit their profile</li>
                       </ul>
                       <div className='project-link-container'>
-                        {/* <a href="" target="_blank"><span className='blue-text'>Live</span></a> */}
+                        <a href="http://my-social-frontend-bucket.s3-website-ap-southeast-2.amazonaws.com" target="_blank"><span className='blue-text'>Live</span></a>
                         <a href="https://github.com/kimey-robertson/my-social.git" target="_blank"><span className='blue-text'>Repo</span></a>
                       </div>
                     </div>
