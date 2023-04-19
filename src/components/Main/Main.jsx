@@ -87,7 +87,7 @@ function handleMenuBtnClick() {
                 <h1 className='name'><span className='blue-text'>KIMEY </span>ROBERTSON</h1>
                 <p className='description'>A <span className='blue-text'>Full Stack Web Developer</span> passionate about creating interactive applications and experiences on the web.</p>
                   <div id='socials-resume'>
-                    <a href="https://pdfhost.io/v/CD98EXANx_Junior_Developer_Resume" target="_blank" id='resume-button' className='btn'>Resumé</a>
+                    <a href="/assets/Kimey_Robertson_Resume.pdf" target="_blank" id='resume-button' className='btn'>Resumé</a>
                     <a href="https://www.linkedin.com/in/kimey-robertson-2b98831b2/" target="_blank" className='social-container'><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/kimey-robertson" target="_blank" className='social-container'><i className="bi bi-github"></i></a>
                   </div>
@@ -250,7 +250,6 @@ function handleMenuBtnClick() {
                       <ul>
                         <li>Text node adventure game created in react</li>
                         <li>Hosted with netlify</li>
-                        {/* <li></li> */}
 
                       </ul>
                       <div className='project-link-container'>
@@ -269,7 +268,6 @@ function handleMenuBtnClick() {
                       <ul>
                         <li>Classic Snake Game with a retro new look</li>
                         <li>Created in Vanilla JS</li>
-                        {/* <li></li> */}
 
                       </ul>
                       <div className='project-link-container'>
