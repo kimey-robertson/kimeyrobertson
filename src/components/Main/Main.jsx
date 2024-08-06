@@ -214,6 +214,27 @@ export default function Main() {
               <div className="skills-grid">
                 <div className="skill-container">
                   <img
+                    src="https://i.ibb.co/WfyCVpw/js.png"
+                    alt="Javascript icon"
+                  />
+                  <p>JavaScript</p>
+                </div>
+                <div className="skill-container">
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1722940869/Typescript_logo_reatb0.png"
+                    alt="Typescript icon"
+                  />
+                  <p>TypeScript</p>
+                </div>
+                <div className="skill-container" id="react-container">
+                  <img
+                    src="https://i.ibb.co/7vMgcqN/react.png"
+                    alt="React icon"
+                  />
+                  <p>React.js</p>
+                </div>
+                <div className="skill-container">
+                  <img
                     src="https://i.ibb.co/jV3MZ4J/html.png"
                     alt="HTML icon"
                   />
@@ -224,48 +245,6 @@ export default function Main() {
                   <p>CSS</p>
                 </div>
                 <div className="skill-container">
-                  <img
-                    src="https://i.ibb.co/WfyCVpw/js.png"
-                    alt="Javascript icon"
-                  />
-                  <p>Javascript</p>
-                </div>
-                <div className="skill-container" id="react-container">
-                  <img
-                    src="https://i.ibb.co/7vMgcqN/react.png"
-                    alt="React icon"
-                  />
-                  <p>React</p>
-                </div>
-                <div className="skill-container">
-                  <img
-                    src="https://i.ibb.co/rmj4fZJ/redux.png"
-                    alt="Redux icon"
-                  />
-                  <p>Redux</p>
-                </div>
-                <div className="skill-container" id="bootstrap-container">
-                  <img
-                    src="https://i.ibb.co/m6ZZbvW/bootstrap.jpg"
-                    alt="Bootstrap icon"
-                  />
-                  <p>Bootstrap</p>
-                </div>
-                <div className="skill-container">
-                  <img
-                    src="https://i.ibb.co/LPjTVzT/python.jpg"
-                    alt="Python icon"
-                  />
-                  <p>Python</p>
-                </div>
-                <div className="skill-container" id="vscode-container">
-                  <img
-                    src="https://i.ibb.co/6BJf36N/vscode.png"
-                    alt="VS Code icon"
-                  />
-                  <p>VS Code</p>
-                </div>
-                <div className="skill-container">
                   <img src="https://i.ibb.co/wdjmMkZ/git.png" alt="Git icon" />
                   <p>Git</p>
                 </div>
@@ -274,14 +253,28 @@ export default function Main() {
                     src="https://i.ibb.co/2q6Sd8L/node.png"
                     alt="Node icon"
                   />
-                  <p>Node</p>
+                  <p>Node.js</p>
+                </div>
+                <div className="skill-container">
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1722941013/next-js_a8ef8w.svg"
+                    alt="Next icon"
+                  />
+                  <p>Next.js</p>
                 </div>
                 <div className="skill-container">
                   <img
                     src="https://i.ibb.co/6ykKksm/express.png"
                     alt="Express icon"
                   />
-                  <p>Express</p>
+                  <p>Express.js</p>
+                </div>
+                <div className="skill-container" id="rails-container">
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1722941611/RoR_emn6r3.png"
+                    alt="RoR icon"
+                  />
+                  <p>Rails</p>
                 </div>
                 <div className="skill-container" id="postgresql-container">
                   <img
@@ -296,13 +289,6 @@ export default function Main() {
                     alt="Terminal icon "
                   />
                   <p>Terminal</p>
-                </div>
-                <div className="skill-container">
-                  <img
-                    src="https://i.ibb.co/NWrTHsw/http.png"
-                    alt="HTTP icon "
-                  />
-                  <p>HTTP</p>
                 </div>
               </div>
             </section>
