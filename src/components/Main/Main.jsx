@@ -188,8 +188,7 @@ export default function Main() {
                     {" "}
                     full stack web applications.{" "}
                   </span>{" "}
-                  My expertise includes TypeScript, React, Next.js, Node.js, CSS
-                  and more. I am also familiar with Ruby on Rails & SQL.
+                  My main expertise includes TypeScript, React, Next.js, Node.js, CSS/SCSS, Ruby on Rails & SQL.
                   <br />
                   <br />
                   I have experience managing small teams of developers,
