@@ -102,10 +102,10 @@ export default function Main() {
                     <p>SKILLS</p>
                   </li>
                 </a>
-                <a href="#projects">
+                <a href="#achievements">
                   <li>
                     <i className="bi bi-briefcase"></i>
-                    <p>PROJECTS</p>
+                    <p>ACHIEVEMENTS</p>
                   </li>
                 </a>
                 <a href="#contact">
@@ -188,7 +188,8 @@ export default function Main() {
                     {" "}
                     full stack web applications.{" "}
                   </span>{" "}
-                  My main expertise includes TypeScript, React, Next.js, Node.js, CSS/SCSS, Ruby on Rails & SQL.
+                  My main expertise includes TypeScript, React, Next.js,
+                  Node.js, CSS/SCSS, Ruby on Rails & SQL.
                   <br />
                   <br />
                   I have experience managing small teams of developers,
@@ -291,218 +292,74 @@ export default function Main() {
                 </div>
               </div>
             </section>
-            <section className="projects-section" id="projects">
+            <section className="projects-section" id="achievements">
               <div className="projects-head">
                 <div className="line"></div>
                 <span>TAKE A LOOK AT MY</span>
-                <h2>PROJECTS</h2>
+                <h2>PROFESSIONAL ACHIEVEMENTS</h2>
               </div>
               <div className="projects-container">
                 <div className="project-box">
                   <div className="project-img-container">
                     <img
-                      src="https://i.ibb.co/h2XTnD3/my-Social-Screenshot.png"
-                      alt="Screenshot of mySocial project"
+                      src="https://res.cloudinary.com/duufztjco/image/upload/v1727519373/Screenshot_2024-09-28_at_8.29.21_PM_kpnf07"
+                      alt="Screenshot of analytics dashboard"
                     />
                   </div>
                   <div className="project-description-container">
-                    <h1>mySocial</h1>
+                    <h1>Dealer Studio's Analytics Dashboard</h1>
                     <h4>
-                      Technologies Used:
+                      Main Technologies Used:
                       <span className="blue-text">
                         {" "}
-                        HTML, CSS, React, Redux, Bootstrap, Node, Express,
-                        PostgreSQL, AWS{" "}
-                      </span>{" "}
-                    </h4>
-                    <ul>
-                      <li>Full stack social media clone</li>
-                      <li>
-                        Uses localstorage and database checks to allow users to
-                        create an account and sign in
-                      </li>
-                      <li>
-                        Makes use of HTTP requests and react-redux state
-                        managent so users can create posts and edit their
-                        profile
-                      </li>
-                    </ul>
-                    <div className="project-link-container">
-                      <a
-                        href="https://mysocial.kimeyrobertson.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Live</span>
-                      </a>
-                      <a
-                        href="https://github.com/kimey-robertson/my-social.git"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Repo</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project-box">
-                  <div className="project-img-container">
-                    <img
-                      src="https://i.ibb.co/JvJ9Gs0/Reddit-Client-Screenshot.png"
-                      alt="Screenshot of Reddit Client project"
-                    />
-                  </div>
-                  <div className="project-description-container">
-                    <h1>Reddit Client</h1>
-                    <h4>
-                      Technologies Used:
-                      <span className="blue-text">
-                        {" "}
-                        HTML, CSS, React, Redux, Reddit API{" "}
+                        React.js, Ruby on Rails, PostgreSQL, Chart.js, DnD kit,
+                        Heroku{" "}
                       </span>{" "}
                     </h4>
                     <ul>
                       <li>
-                        Utilises the Reddit API and a search function to find
-                        reddit posts
-                      </li>
-                      <li>Created and rendered with React</li>
-                      <li>State managed using Redux</li>
-                    </ul>
-                    <div className="project-link-container">
-                      <a
-                        href="https://kimey-robertson.github.io/reddit-client/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Live</span>
-                      </a>
-                      <a
-                        href="https://github.com/kimey-robertson/reddit-client.git"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Repo</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project-box">
-                  <div className="project-img-container">
-                    <img
-                      src="https://i.ibb.co/8N9sWR5/Chat-App-Screenshot.png"
-                      alt="Screenshot of Chat App project"
-                    />
-                  </div>
-                  <div className="project-description-container">
-                    <h1>Chat App</h1>
-                    <h4>
-                      Technologies Used:
-                      <span className="blue-text">
-                        {" "}
-                        HTML, CSS, React, Firebase{" "}
-                      </span>{" "}
-                    </h4>
-                    <ul>
-                      <li>
-                        A real-time chat app that can have multiple people
-                        connect and chatting simultaneously
+                        Fully customisable drag and drop{" "}
+                        <span className="blue-text">Analytics Dashboard</span>
                       </li>
                       <li>
-                        Makes use of firebase's hosting platform and real time
-                        database
+                        Data visualised using{" "}
+                        <span className="blue-text">Chart.js</span>, with the
+                        ability to choose from a variety of chart types
                       </li>
-                      <li>Created and rendered with React</li>
+                      <li>
+                        Backend built with{" "}
+                        <span className="blue-text">
+                          Ruby on Rails, PostgreSQL
+                        </span>{" "}
+                        and deployed on{" "}
+                        <span className="blue-text">Heroku</span>
+                      </li>
+                      <li>
+                        User layouts saved to the{" "}
+                        <span className="blue-text">database</span> and loaded
+                        on subsequent visits
+                      </li>
+                      <li>
+                        Fully integrated with{" "}
+                        <span className="blue-text">
+                          GA4, Facebooks Ads and Google Ads
+                        </span>{" "}
+                        API's showing real business data.
+                      </li>
+                      <li>
+                        Also integrated with our{" "}
+                        <span className="blue-text">
+                          Dealer Studio's internal API
+                        </span>{" "}
+                        to show lead data from our own system and client
+                        websites
+                      </li>
                     </ul>
-                    <div className="project-link-container">
-                      <a
-                        href="https://chat-app-1f194.firebaseapp.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Live</span>
-                      </a>
-                      <a
-                        href="https://github.com/kimey-robertson/chat-app.git"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Repo</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project-box">
-                  <div className="project-img-container">
-                    <img
-                      src="https://i.ibb.co/0XDkZVH/Adventure-Game-Screenshot.png"
-                      alt="Screenshot of Adventure Game project"
-                    />
-                  </div>
-                  <div className="project-description-container">
-                    <h1>Text-based Adventure Game</h1>
-                    <h4>
-                      Technologies Used:
-                      <span className="blue-text"> HTML, CSS, React </span>{" "}
-                    </h4>
-                    <ul>
-                      <li>Text node adventure game created in react</li>
-                      <li>Hosted with netlify</li>
-                    </ul>
-                    <div className="project-link-container">
-                      <a
-                        href="https://jazzy-bunny-473a0e.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Live</span>
-                      </a>
-                      <a
-                        href="https://github.com/kimey-robertson/adventure-game-react.git"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Repo</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="project-box">
-                  <div className="project-img-container">
-                    <img
-                      src="https://i.ibb.co/JcFPzQD/Snake-Game-Screenshot.png"
-                      alt="Screenshot of Snake Game project"
-                    />
-                  </div>
-                  <div className="project-description-container">
-                    <h1>Snake Game</h1>
-                    <h4>
-                      Technologies Used:
-                      <span className="blue-text">
-                        {" "}
-                        HTML, CSS, Javascript{" "}
-                      </span>{" "}
-                    </h4>
-                    <ul>
-                      <li>Classic Snake Game with a retro new look</li>
-                      <li>Created in Vanilla JS</li>
-                    </ul>
-                    <div className="project-link-container">
-                      <a
-                        href="https://kimey-robertson.github.io/Snake-Game/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Live</span>
-                      </a>
-                      <a
-                        href="https://github.com/kimey-robertson/Snake-Game.git"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span className="blue-text">Repo</span>
-                      </a>
-                    </div>
+                    <h3>
+                      I was the primary developer on this project, developing
+                      both the front end and back end sides of the dashboard
+                      since it's conception
+                    </h3>
                   </div>
                 </div>
               </div>

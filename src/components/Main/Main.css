@@ -389,6 +389,7 @@ section {
 
 .project-box {
     display: flex;
+    flex-direction: column;
     padding: 30px;
     margin: 20px 0;
     border-radius: 15px;
@@ -408,13 +409,13 @@ section {
 .project-img-container img {
     border-radius: 15px;
     border: 1px solid #eee;
-    width: 400px;
-    height: 200px;
+    width: 100%;
     justify-content: center;
 }
 
 .project-description-container {
     margin-left: 30px;
+    margin-top: 15px;
 }
 
 .project-description-container h1 {
