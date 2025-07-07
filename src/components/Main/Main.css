@@ -77,7 +77,6 @@ aside:hover {
 }
 
 .navbar {
-  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform: translateX(-100%);
 }
 
@@ -501,7 +500,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   position: relative;
   overflow: hidden;
 }
@@ -523,10 +522,15 @@ section {
 }
 
 .skill-container i {
-  font-size: 36px;
+  font-size: 40px;
   color: var(--text-accent);
   z-index: 1;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 
 .skill-container p {
@@ -537,14 +541,19 @@ section {
   z-index: 1;
   position: relative;
   text-align: center;
+  line-height: 1.2;
 }
 
 .skill-container img {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   z-index: 1;
   position: relative;
   transition: all var(--transition-medium);
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-container:hover {
@@ -557,27 +566,21 @@ section {
   transform: scale(1.1);
 }
 
-#bootstrap-container p {
-  padding-bottom: 8px;
-}
-
+/* Remove all special positioning overrides for uniform appearance */
+#bootstrap-container p,
 #postgresql-container p {
-  font-size: 10.5px;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
 }
 
-#react-container img {
-  margin-top: 3px;
-  margin-bottom: 1px;
-  height: 32px;
-}
-
-#rails-container img {
-  width: 75px;
-  height: 50px;
-}
-
+#react-container img,
+#rails-container img,
 #terminal-container img {
-  width: 70px;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  object-fit: contain;
 }
 
 /* Projects */
@@ -689,11 +692,32 @@ section {
   font-size: 1.1rem;
 }
 
-.project-link-container a {
+.project-links-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-links-container a {
   padding-right: 30px;
   font-size: 18px;
-  color: var(--text-accent);
   font-weight: 600;
+  display: flex;
+  background: var(--primary-gradient);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all var(--transition-medium);
+  gap: 10px;
+}
+
+.project-links-container a:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 /* Contact */

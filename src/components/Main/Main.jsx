@@ -72,6 +72,9 @@ export default function Main() {
                   <i className="bi bi-briefcase"></i>
                 </li>
                 <li>
+                  <i className="bi bi-laptop"></i>
+                </li>
+                <li>
                   <i className="bi bi-telephone"></i>
                 </li>
               </div>
@@ -106,6 +109,12 @@ export default function Main() {
                   <li>
                     <i className="bi bi-briefcase"></i>
                     <p>ACHIEVEMENTS</p>
+                  </li>
+                </a>
+                <a href="#projects">
+                  <li>
+                    <i className="bi bi-laptop"></i>
+                    <p>PROJECTS</p>
                   </li>
                 </a>
                 <a href="#contact">
@@ -360,7 +369,82 @@ export default function Main() {
                       both the front end and back end sides of the dashboard
                       since it's conception
                     </h3>
+                    <h4>
+                      This product is behind a paywall, so I can't share the
+                      link, sorry!
+                    </h4>
                   </div>
+                </div>
+              </div>
+            </section>
+            <section className="projects-section" id="projects">
+              <div className="projects-head">
+                <div className="line"></div>
+                <span>HERE ARE SOME OF MY</span>
+                <h2>PERSONAL PROJECTS</h2>
+              </div>
+              <div className="project-box">
+                <div className="project-img-container">
+                  <img
+                    src="../assets/tictactoe.png"
+                    alt="Screenshot of Tic Tac Toe game"
+                  />
+                </div>
+                <div className="project-description-container">
+                  <h1>Multiplayer Tic Tac Toe</h1>
+                  <h4>
+                    Main Technologies Used:
+                    <span className="blue-text">
+                      {" "}
+                      React.js, Socket.io, Node.js, Express.js, Tailwind CSS &
+                      Railway
+                    </span>{" "}
+                  </h4>
+                  <ul>
+                    <li>
+                      Online multiplayer Tic Tac Toe game with
+                      <span className="blue-text"> real time </span> game
+                      updates using <span className="blue-text">Socket.io</span>
+                    </li>
+                    <li>
+                      Backend and frontend send and recieve events to eachother
+                      through <span className="blue-text">WebSockets</span>
+                    </li>
+                    <li>
+                      Backend built with{" "}
+                      <span className="blue-text">Node.js, Express.js</span> and
+                      deployed on <span className="blue-text">Railway</span>
+                    </li>
+                    <li>
+                      The game is built with{" "}
+                      <span className="blue-text">Tailwind CSS</span> for
+                      styling and <span className="blue-text">React.js</span>{" "}
+                      for the frontend
+                    </li>
+                    <li>
+                      Users can play against each other in{" "}
+                      <span className="blue-text">real time</span>, with the
+                      ability to join games via a game id
+                    </li>
+                  </ul>
+                </div>
+                <div className="project-links-container">
+                  <a
+                    href="https://tictactoe-multiplayer-production-a919.up.railway.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="bi bi-link"></i>
+                    <p>View Project</p>
+                  </a>
+                  <a
+                    href="https://github.com/kimey-robertson/tictactoe-multiplayer"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="bi bi-github"></i>
+                    <p>View Code</p>
+                  </a>
                 </div>
               </div>
             </section>
