@@ -147,6 +147,10 @@ aside ul {
   font-weight: 500;
 }
 
+.nav-buttons a:focus {
+  outline: none;
+}
+
 .nav-buttons a li {
   transition: all var(--transition-fast);
   border-radius: 12px;
