@@ -308,72 +308,68 @@ export default function Main() {
                 <h2>PROFESSIONAL ACHIEVEMENTS</h2>
               </div>
               <div className="projects-container">
-                <div className="project-box">
-                  <div className="project-img-container">
-                    <img
-                      src="https://res.cloudinary.com/duufztjco/image/upload/v1727519373/Screenshot_2024-09-28_at_8.29.21_PM_kpnf07"
-                      alt="Screenshot of analytics dashboard"
-                    />
-                  </div>
-                  <div className="project-description-container">
-                    <h1>Dealer Studio's Analytics Dashboard</h1>
-                    <h4>
-                      Main Technologies Used:
+                <div className="project-img-container">
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1727519373/Screenshot_2024-09-28_at_8.29.21_PM_kpnf07"
+                    alt="Screenshot of analytics dashboard"
+                  />
+                </div>
+                <div className="project-description-container">
+                  <h1>Dealer Studio's Analytics Dashboard</h1>
+                  <h4>
+                    Main Technologies Used:
+                    <span className="blue-text">
+                      {" "}
+                      React.js, Ruby on Rails, PostgreSQL, Chart.js, DnD kit,
+                      Heroku{" "}
+                    </span>{" "}
+                  </h4>
+                  <ul>
+                    <li>
+                      Fully customisable drag and drop{" "}
+                      <span className="blue-text">Analytics Dashboard</span>
+                    </li>
+                    <li>
+                      Data visualised using{" "}
+                      <span className="blue-text">Chart.js</span>, with the
+                      ability to choose from a variety of chart types
+                    </li>
+                    <li>
+                      Backend built with{" "}
                       <span className="blue-text">
-                        {" "}
-                        React.js, Ruby on Rails, PostgreSQL, Chart.js, DnD kit,
-                        Heroku{" "}
+                        Ruby on Rails, PostgreSQL
                       </span>{" "}
-                    </h4>
-                    <ul>
-                      <li>
-                        Fully customisable drag and drop{" "}
-                        <span className="blue-text">Analytics Dashboard</span>
-                      </li>
-                      <li>
-                        Data visualised using{" "}
-                        <span className="blue-text">Chart.js</span>, with the
-                        ability to choose from a variety of chart types
-                      </li>
-                      <li>
-                        Backend built with{" "}
-                        <span className="blue-text">
-                          Ruby on Rails, PostgreSQL
-                        </span>{" "}
-                        and deployed on{" "}
-                        <span className="blue-text">Heroku</span>
-                      </li>
-                      <li>
-                        User layouts saved to the{" "}
-                        <span className="blue-text">database</span> and loaded
-                        on subsequent visits
-                      </li>
-                      <li>
-                        Fully integrated with{" "}
-                        <span className="blue-text">
-                          GA4, Facebooks Ads and Google Ads
-                        </span>{" "}
-                        API's showing real business data.
-                      </li>
-                      <li>
-                        Also integrated with our{" "}
-                        <span className="blue-text">
-                          Dealer Studio's internal API
-                        </span>{" "}
-                        to show lead data from our own system and client
-                        websites
-                      </li>
-                    </ul>
-                    <h3>
-                      I was the primary developer on this project, developing
-                      both the front end and back end sides of the dashboard
-                      since it's conception
-                    </h3>
-                    <h4>
-                      This product is behind a paywall, so I can't share the
-                      link, sorry!
-                    </h4>
-                  </div>
+                      and deployed on <span className="blue-text">Heroku</span>
+                    </li>
+                    <li>
+                      User layouts saved to the{" "}
+                      <span className="blue-text">database</span> and loaded on
+                      subsequent visits
+                    </li>
+                    <li>
+                      Fully integrated with{" "}
+                      <span className="blue-text">
+                        GA4, Facebooks Ads and Google Ads
+                      </span>{" "}
+                      API's showing real business data.
+                    </li>
+                    <li>
+                      Also integrated with our{" "}
+                      <span className="blue-text">
+                        Dealer Studio's internal API
+                      </span>{" "}
+                      to show lead data from our own system and client websites
+                    </li>
+                  </ul>
+                  <h3>
+                    I was the primary developer on this project, developing both
+                    the front end and back end sides of the dashboard since it's
+                    conception
+                  </h3>
+                  <h4>
+                    This product is behind a paywall, so I can't share the link,
+                    sorry!
+                  </h4>
                 </div>
               </div>
             </section>
@@ -383,7 +379,7 @@ export default function Main() {
                 <span>HERE ARE SOME OF MY</span>
                 <h2>PERSONAL PROJECTS</h2>
               </div>
-              <div className="project-box">
+              <div className="projects-container">
                 <div className="project-img-container">
                   <img
                     src="../assets/tictactoe.png"
@@ -455,21 +451,21 @@ export default function Main() {
                 <h2>CONTACT</h2>
               </div>
               <div className="contact-container">
-                <h3>Get in Touch</h3>
-                <div className="email-me-container">
-                  <div className="email-icon-container">
-                    <i className="bi bi-envelope"></i>
-                  </div>
+                <div className="contact-form-or-email">
+                  <h3>Contact Form</h3>
+                  <h5>OR</h5>
                   <a
                     href="mailto:kimey.robertson@gmail.com"
                     target="_blank"
                     rel="noreferrer"
+                    className="email-me-container"
                   >
-                    <p id="my-email">kimey.robertson@gmail.com</p>
+                    <div className="email-icon-container">
+                      <i className="bi bi-envelope"></i>
+                    </div>
+                    <p>Email me</p>
                   </a>
-                  <p>Email me</p>
                 </div>
-                <h3>Contact Form</h3>
                 <form
                   className="contact-form-grid"
                   id="contact-form"
