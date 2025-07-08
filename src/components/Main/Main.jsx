@@ -1,10 +1,34 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Main.css";
 
 export default function Main() {
   const [navButtonsShown, setNavButtonsShown] = useState(false);
   const [sideBarHidden, setSideBarHidden] = useState(false);
   const [menuButtonHidden, setMenuButtonHidden] = useState(true);
+  const hideButtonsTimerRef = useRef(null);
+
+  // Clear any existing timer and set nav buttons to show
+  const handleNavMouseEnter = () => {
+    if (hideButtonsTimerRef.current) {
+      clearTimeout(hideButtonsTimerRef.current);
+    }
+    setNavButtonsShown(true);
+  };
+
+  // Set a timer to hide nav buttons after a delay
+  const handleNavMouseLeave = () => {
+    hideButtonsTimerRef.current = setTimeout(() => {
+      setNavButtonsShown(false);
+    }, 300); // 300ms delay
+  };
+
+  // Force hide nav buttons immediately (used in resize and menu click handlers)
+  const forceHideNavButtons = () => {
+    if (hideButtonsTimerRef.current) {
+      clearTimeout(hideButtonsTimerRef.current);
+    }
+    setNavButtonsShown(false);
+  };
 
   // Listen for when the breakpoint 990px is reached and either show or hide the sidebar
   useEffect(() => {
@@ -18,7 +42,7 @@ export default function Main() {
         // Over 990px
         setSideBarHidden(false);
         setMenuButtonHidden(true);
-        setNavButtonsShown(false);
+        forceHideNavButtons();
       }
     }
 
@@ -28,6 +52,9 @@ export default function Main() {
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      if (hideButtonsTimerRef.current) {
+        clearTimeout(hideButtonsTimerRef.current);
+      }
     };
   }, []);
 
@@ -37,7 +64,7 @@ export default function Main() {
       setNavButtonsShown(true);
     } else {
       setSideBarHidden(true);
-      setNavButtonsShown(false);
+      forceHideNavButtons();
     }
   }
 
@@ -53,8 +80,8 @@ export default function Main() {
         className={`navbar ${!sideBarHidden ? "navbar--visible" : ""}`}
       >
         <nav
-          onMouseEnter={() => setNavButtonsShown(true)}
-          onMouseLeave={() => setNavButtonsShown(false)}
+          onMouseEnter={handleNavMouseEnter}
+          onMouseLeave={handleNavMouseLeave}
         >
           <ul id="nav-bar-list">
             {!navButtonsShown && (
