@@ -177,7 +177,7 @@ export default function Main() {
           </header>
           <main>
             <section className="about-section" id="about">
-              <div className="about-head">
+              <div className="head">
                 <div className="line"></div>
                 <span>SOME INFO</span>
                 <h2>ABOUT ME</h2>
@@ -215,7 +215,7 @@ export default function Main() {
               </div>
             </section>
             <section className="skills-section" id="skills">
-              <div className="skills-head">
+              <div className="head">
                 <div className="line"></div>
                 <span>CHECK OUT MY</span>
                 <h2>SKILLS</h2>
@@ -302,7 +302,7 @@ export default function Main() {
               </div>
             </section>
             <section className="projects-section" id="achievements">
-              <div className="projects-head">
+              <div className="head">
                 <div className="line"></div>
                 <span>TAKE A LOOK AT MY</span>
                 <h2>PROFESSIONAL ACHIEVEMENTS</h2>
@@ -378,7 +378,7 @@ export default function Main() {
               </div>
             </section>
             <section className="projects-section" id="projects">
-              <div className="projects-head">
+              <div className="head">
                 <div className="line"></div>
                 <span>HERE ARE SOME OF MY</span>
                 <h2>PERSONAL PROJECTS</h2>
@@ -449,7 +449,7 @@ export default function Main() {
               </div>
             </section>
             <section className="contact-section" id="contact">
-              <div className="contact-head">
+              <div className="head">
                 <div className="line"></div>
                 <span>SAY HELLO</span>
                 <h2>CONTACT</h2>

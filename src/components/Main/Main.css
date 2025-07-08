@@ -391,12 +391,29 @@ header::before {
 
 main {
   width: 100%;
-  padding: 60px 0;
 }
 
 section {
-  padding: 80px 0;
-  margin-bottom: 40px;
+  padding: 40px 0;
+}
+
+.head {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.head h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.head span {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
 }
 
 /* About */
@@ -404,9 +421,9 @@ section {
 .about-me-container {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(215, 215, 215, 0.269);
   border-radius: 30px;
-  padding: 60px;
+  padding: 40px 60px;
   width: 95%;
   margin: auto;
   box-shadow: var(--shadow-lg);
@@ -423,26 +440,6 @@ section {
   line-height: 1.8;
   color: var(--text-secondary);
   font-weight: 500;
-}
-
-.about-head {
-  padding: 60px 0;
-  text-align: center;
-}
-
-.about-head h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-top: 20px;
-  color: var(--text-primary);
-}
-
-.about-head span {
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: var(--text-secondary);
-  text-transform: uppercase;
 }
 
 /* Skills */
@@ -470,7 +467,7 @@ section {
 .skills-grid {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(215, 215, 215, 0.269);
   border-radius: 30px;
   padding: 60px;
   width: 95%;
