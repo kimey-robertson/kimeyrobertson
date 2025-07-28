@@ -160,7 +160,7 @@ export default function Main() {
           <header id="home">
             <div id="img-container">
               <img
-                src="https://res.cloudinary.com/duufztjco/image/upload/v1722855860/Profile1_oe2jmw"
+                src="https://res.cloudinary.com/duufztjco/image/upload/v1753699887/Profile1_oe2jmw_ndout2.webp"
                 alt="Kimey Robertson"
               />
             </div>
@@ -250,43 +250,49 @@ export default function Main() {
               <div className="skills-grid">
                 <div className="skill-container">
                   <img
-                    src="https://i.ibb.co/WfyCVpw/js.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701153/js_yebzd9.webp"
                     alt="Javascript icon"
                   />
                   <p>JavaScript</p>
                 </div>
                 <div className="skill-container">
                   <img
-                    src="https://res.cloudinary.com/duufztjco/image/upload/v1722940869/Typescript_logo_reatb0.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753700168/Typescript_logo_reatb0_aofouw.webp"
                     alt="Typescript icon"
                   />
                   <p>TypeScript</p>
                 </div>
                 <div className="skill-container" id="react-container">
                   <img
-                    src="https://i.ibb.co/7vMgcqN/react.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701152/react_rb5ier.webp"
                     alt="React icon"
                   />
                   <p>React.js</p>
                 </div>
                 <div className="skill-container">
                   <img
-                    src="https://i.ibb.co/jV3MZ4J/html.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701152/html_vv0awx.webp"
                     alt="HTML icon"
                   />
                   <p>HTML</p>
                 </div>
                 <div className="skill-container">
-                  <img src="https://i.ibb.co/j4bmqMb/css.png" alt="CSS icon" />
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701152/css_zfjsdn.webp"
+                    alt="CSS icon"
+                  />
                   <p>CSS</p>
                 </div>
                 <div className="skill-container">
-                  <img src="https://i.ibb.co/wdjmMkZ/git.png" alt="Git icon" />
+                  <img
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701155/git_d1306p.webp"
+                    alt="Git icon"
+                  />
                   <p>Git</p>
                 </div>
                 <div className="skill-container">
                   <img
-                    src="https://i.ibb.co/2q6Sd8L/node.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701153/node_wxefgu.webp"
                     alt="Node icon"
                   />
                   <p>Node.js</p>
@@ -300,28 +306,28 @@ export default function Main() {
                 </div>
                 <div className="skill-container">
                   <img
-                    src="https://i.ibb.co/6ykKksm/express.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701153/express_jlagny.webp"
                     alt="Express icon"
                   />
                   <p>Express.js</p>
                 </div>
                 <div className="skill-container" id="rails-container">
                   <img
-                    src="https://res.cloudinary.com/duufztjco/image/upload/v1722941611/RoR_emn6r3.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753700215/RoR_emn6r3_c74qmg.webp"
                     alt="RoR icon"
                   />
                   <p>Rails</p>
                 </div>
                 <div className="skill-container" id="postgresql-container">
                   <img
-                    src="https://i.ibb.co/ZX65z2M/postgre-SQL.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701152/postgres_y7v5md.webp"
                     alt="PostgreSQL icon"
                   />
                   <p>PostgreSQL</p>
                 </div>
                 <div className="skill-container" id="terminal-container">
                   <img
-                    src="https://i.ibb.co/TmsHKcW/terminal.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753701153/terminal_urndvw.webp"
                     alt="Terminal icon "
                   />
                   <p>Terminal</p>
@@ -337,7 +343,7 @@ export default function Main() {
               <div className="projects-container">
                 <div className="project-img-container">
                   <img
-                    src="https://res.cloudinary.com/duufztjco/image/upload/v1727519373/Screenshot_2024-09-28_at_8.29.21_PM_kpnf07"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753700062/DS-Analytics_wuruwt.webp"
                     alt="Screenshot of analytics dashboard"
                   />
                 </div>
@@ -409,7 +415,7 @@ export default function Main() {
               <div className="projects-container">
                 <div className="project-img-container">
                   <img
-                    src="../assets/tictactoe.png"
+                    src="https://res.cloudinary.com/duufztjco/image/upload/v1753700424/tictactoe_l9aikr.webp"
                     alt="Screenshot of Tic Tac Toe game"
                   />
                 </div>
